@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Style the logo */
+.logo img {
+    width: 100px;
+    /* Adjust the width to your logo size */
+}
+
+/* Style the list items */
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+/* Style the links */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Change link color on hover */
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Banner */
+.banner {
+    background-image: url("../img/world-of-food.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  
+}
+
+/* vegan_restaurant */
+
+.vegan_restaurant {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    overflow: hidden;
+
+
+}
+.vegan_res_img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    height:auto;
+   
+}
+.vegan_res_img{
+    width: 50%;
+    margin: 5px;
+   
+}
+.vegan_article{
+    width: 50%;
+    margin: 5px;
+    height: auto;
+
+}
+
+/* Indian_restaurant */
+
+.indian_restaurant {
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    overflow: hidden;
+
+
+}
+.indian_res_img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    height:auto;
+   
+}
+.indian_res_img{
+    width: 50%;
+    margin: 5px;
+    
+   
+}
+.indian_article{
+    width: 50%;
+    margin: 5px;
+    height: auto;
+
+}
+
+/* chinese_restaurant */
+
+.chinese_restaurant {
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    overflow: hidden;
+
+
+}
+.chinese_res_img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    height:auto;
+   
+}
+.chinese_res_img{
+    width: 50%;
+    margin: 5px;
+    
+   
+}
+.chinese_article{
+    width: 50%;
+    margin: 5px;
+    height: auto;
+
+}
+
+/* World_of_food */
+.world_food_text{
+    text-align: center;
+}
+.World_of_food{
+    display: flex;
+    justify-content: space-around;
+}
+
+.food img{
+width: 400px;
+height: 250px;
+}
+.food h4{
+    text-align: center;
+}
