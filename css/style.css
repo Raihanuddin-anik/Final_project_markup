@@ -114,6 +114,10 @@ nav a:hover {
     margin: auto;
     margin-top: 40px;
     cursor: pointer;
+    border-color: #333;
+    border-width: 2px;
+    border-style: none;
+    float: left;
 }
 
 /* vegan_restaurant */
@@ -270,3 +274,7 @@ p {
     font-size: 16px;
 }
 
+.world_food_description::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
