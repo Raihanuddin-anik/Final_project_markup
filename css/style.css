@@ -113,6 +113,7 @@ nav a:hover {
     text-transform: uppercase;
     margin: auto;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 /* vegan_restaurant */
@@ -259,9 +260,13 @@ footer {
 }
 
 .container {
-    text-align: center;
+   align-items: center;
+   text-align: center;
 }
-
+.container li{
+    list-style: none;
+}
 p {
     font-size: 16px;
 }
+
