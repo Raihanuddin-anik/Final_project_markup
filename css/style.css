@@ -1,15 +1,40 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+ul.navbar {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+ul.navbar li a:hover {
+    background-color: black;
+    color: white;
 }
 
 /* Style the navigation bar */
+
+.Top_nav {
+    background-color: #FAF2F2;
+}
+
 nav {
     background-color: #333;
     display: flex;
@@ -49,12 +74,45 @@ nav a:hover {
 /* Banner */
 .banner {
     background-image: url("../img/world-of-food.jpg");
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
-  
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    background-color: #554e4e;
+}
+
+.vertical_center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    
+}
+ .Top_heading{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 30px;
+}
+.Top_description{
+    color: #fff;
+}
+.exploreBtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    background-color: black;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 40px;
 }
 
 /* vegan_restaurant */
@@ -65,108 +123,145 @@ nav a:hover {
     justify-content: space-between;
     height: 300px;
     overflow: hidden;
+    box-shadow: 10px 5px 5px rgb(233, 228, 228);
+padding: 10px;
 
 
 }
-.vegan_res_img img{
+
+.vegan_res_img img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:80%;
-    height:auto;
-   
+    width: 80%;
+    height: auto;
+
 }
-.vegan_res_img{
+
+.vegan_res_img {
     width: 50%;
     margin: 5px;
-   
+
 }
-.vegan_article{
-    width: 50%;
+
+.vegan_article {
+    width: 40%;
     margin: 5px;
     height: auto;
+    padding-right: 70px;
 
 }
 
 /* Indian_restaurant */
 
 .indian_restaurant {
-    width: 100%;
     margin: 30px;
     display: flex;
     justify-content: space-between;
     height: 300px;
     overflow: hidden;
-
-
+    box-shadow: 10px 5px 5px rgb(233, 228, 228);
 }
-.indian_res_img img{
+
+.indian_res_img img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:80%;
-    height:auto;
-   
+    width: 80%;
+    height: auto;
+
 }
-.indian_res_img{
+
+.indian_res_img {
     width: 50%;
     margin: 5px;
-    
-   
+
+
 }
-.indian_article{
-    width: 50%;
+
+.indian_article {
+    width: 40%;
     margin: 5px;
     height: auto;
+    padding-left: 67px;
 
 }
 
 /* chinese_restaurant */
 
 .chinese_restaurant {
-    width: 100%;
     margin: 30px;
     display: flex;
     justify-content: space-between;
     height: 300px;
     overflow: hidden;
-
+    box-shadow: 10px 5px 5px rgb(233, 228, 228);
 
 }
-.chinese_res_img img{
+
+.chinese_res_img img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:80%;
-    height:auto;
-   
-}
-.chinese_res_img{
-    width: 50%;
-    margin: 5px;
-    
-   
-}
-.chinese_article{
-    width: 50%;
-    margin: 5px;
+    width: 80%;
     height: auto;
 
 }
 
+.chinese_res_img {
+    width: 50%;
+    margin: 5px;
+}
+
+.chinese_article {
+    width: 40%;
+    margin: 5px;
+    height: auto;
+    padding-right: 70px;
+}
+
 /* World_of_food */
-.world_food_text{
+.world_food_heading{
     text-align: center;
 }
-.World_of_food{
+.world_food_description{
+    width: 90%;
+    margin: auto;
+    padding: 25px 12px;
+}
+.World_of_food {
     display: flex;
     justify-content: space-around;
 }
 
-.food img{
-width: 400px;
-height: 250px;
+.food img {
+    width: 400px;
+    height: 250px;
+    border-radius: 25px;
 }
-.food h4{
+
+.food h4 {
     text-align: center;
+}
+
+/*  Footer */
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
 }
