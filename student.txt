@@ -1,5 +1,21 @@
-Student name: your name 
-Student number: your student number
-Student class: your class
-GitHub Repository: your github repository URL
+Student name: Raihan Bhuiyan
+Student number: 710083
+Student class: IT1C
+GitHub Repository:
+
+Home page : https://github.com/Raihanuddin-anik/Final_project_markup
+details Page 1 : https://github.com/Raihanuddin-anik/Indian_details
+details Page 2 : https://github.com/Raihanuddin-anik/vegan_details
+details Page 3 : https://github.com/Raihanuddin-anik/chinese_food
+details Page 4 : https://github.com/Raihanuddin-anik/StreetFood_details
+contact page  : https://github.com/Raihanuddin-anik/Contact_page2
+
+
 GitHub Pages URL: your github pages URL
+
+Home page : https://github.com/Raihanuddin-anik/Final_project_markup
+details Page 1 : https://raihanuddin-anik.github.io/StreetFood_details/
+details Page 2 : https://raihanuddin-anik.github.io/vegan_details/
+details Page 3 : https://raihanuddin-anik.github.io/Indian_details/
+details Page 4 : https://raihanuddin-anik.github.io/chinese_food/
+contact page : https://raihanuddin-anik.github.io/Contact_page2/
